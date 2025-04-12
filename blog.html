@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 40px;
+        }
+        .blog-card {
+            background-color: #f9f9f9;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .blog-card img {
+            width: 100%;
+            height: auto;
+        }
+        .blog-card-content {
+            padding: 20px;
+        }
+        .blog-card-content h3 {
+            margin-top: 0;
+        }
+        .blog-card-content p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Armonie & Relaxare</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="despre.html">Despre</a></li>
+                    <li><a href="servicii.html">Servicii</a></li>
+                    <li><a href="echipa.html">Echipa</a></li>
+                    <li><a href="testimoniale.html">Testimoniale</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="voucher.html">Voucher</a></li>
+                    <li><a href="contact.html" class="cta">Programare</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="blog">
+        <h1>Articole & Sfaturi</h1>
+        <p class="intro-text">Informații utile pentru relaxare și sănătate holistică.</p>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="https://source.unsplash.com/600x400/?massage,therapy" alt="Masaj terapeutic">
+                <div class="blog-card-content">
+                    <h3>Beneficiile masajului terapeutic</h3>
+                    <p>Află cum te poate ajuta masajul în gestionarea durerilor cronice și stresului cotidian.</p>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="https://source.unsplash.com/600x400/?aromatherapy,essential-oils" alt="Aromaterapie">
+                <div class="blog-card-content">
+                    <h3>Aromaterapia: puterea uleiurilor esențiale</h3>
+                    <p>Descoperă cum mirosurile naturale pot influența pozitiv starea ta de spirit.</p>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="https://source.unsplash.com/600x400/?relaxation,yoga" alt="Relaxare">
+                <div class="blog-card-content">
+                    <h3>5 tehnici simple de relaxare acasă</h3>
+                    <p>Îți prezentăm metode rapide pentru liniștirea minții și a corpului, fără a părăsi casa.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Armonie și Relaxare</p>
+    </footer>
+</body>
+</html>

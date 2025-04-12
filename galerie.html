@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .galerie-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+        .galerie-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Armonie & Relaxare</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="despre.html">Despre</a></li>
+                    <li><a href="servicii.html">Servicii</a></li>
+                    <li><a href="echipa.html">Echipa</a></li>
+                    <li><a href="testimoniale.html">Testimoniale</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="voucher.html">Voucher</a></li>
+                    <li><a href="contact.html" class="cta">Programare</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="galerie">
+        <h1>Galerie foto</h1>
+        <p class="intro-text">Un colț de liniște, surprins în imagini.</p>
+        <div class="galerie-grid">
+            <img src="https://source.unsplash.com/600x400/?spa,relax" alt="Relaxare 1">
+            <img src="https://source.unsplash.com/600x400/?massage" alt="Masaj 1">
+            <img src="https://source.unsplash.com/600x400/?aromatherapy" alt="Aromaterapie">
+            <img src="https://source.unsplash.com/600x400/?wellness" alt="Wellness">
+            <img src="https://source.unsplash.com/600x400/?zen,spa" alt="Zen Spa">
+            <img src="https://source.unsplash.com/600x400/?spa,therapy" alt="Terapie Spa">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Armonie și Relaxare</p>
+    </footer>
+</body>
+</html>
